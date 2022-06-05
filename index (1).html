@@ -5,6 +5,7 @@
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+        <npm i bootstrap-icons></npm>
 
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
@@ -41,7 +42,7 @@
 
           .bi {
             vertical-align: -.125em;
-            fill: currentColor;
+            fill: coral;
             
           }
 
@@ -72,7 +73,7 @@
           .icon-link > .bi {
             margin-top: .125rem;
             margin-left: .125rem;
-            fill: currentcolor;
+            fill: coral;
             transition: transform .25s ease-in-out;
           }
           .icon-link:hover > .bi {
@@ -99,7 +100,9 @@ h1{color: #810202;}
 h2{color: #810202;}
 p{color: #FE6600;}
 body{color: #5D0000;}
+footer{color: #5D0000;}
 img{margin: 5px 5px 5px 5px;}
+form{color:#5D0000;}
 .btn-primary{
     background-color: #5D0000 !important;}
     
@@ -114,6 +117,7 @@ img{margin: 5px 5px 5px 5px;}
     background-color: #5D0000;
     border-color: #5D0000;
 }
+.nav{color: #5D0000;}
 
         </style>
 
@@ -206,8 +210,8 @@ img{margin: 5px 5px 5px 5px;}
         <div class="container">
           <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
             <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><img src="owl_cute.svg" width="50px"> </img></svg>
-              <h2>Smart Owl Writing Services </h2>
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><img src="https://freesvg.org/img/owl_cute.png" alt="Owl pic" width="50px"> </img></svg>
+              <h2>Smart Owl</h2>
             </a>
       
             <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
@@ -231,7 +235,7 @@ img{margin: 5px 5px 5px 5px;}
           <div class="row align-items-center g-lg-5 py-5">
             <div class="col-lg-7 text-center text-lg-start">
               <h1 class="display-4 fw-bold lh-1 mb-3">Looking For Someone To Write Your Essay For You?</h1>
-              <p class="col-lg-10 fs-4">Hire an expert from our paper service to deliver an original assignment on any subject by your due date!.</p>
+              <p class="col-lg-10 fs-4">Hire an expert from "Smart Owl" to deliver an original assignment on any subject by your due date!.</p>
             </div>
             <div class="col-md-10 mx-auto col-lg-5">
               
@@ -244,7 +248,7 @@ img{margin: 5px 5px 5px 5px;}
                   <fieldset id="fs-frm-selects">
                     <label for="timely">Choose the task you want to delegate
               
-              .</label>
+              </label>
                     <select name="timely" id="timely" required="">
                       <option value="" selected="" disabled="">Choose</option>
                       <option value="1">Academic essay</option>
@@ -329,7 +333,7 @@ img{margin: 5px 5px 5px 5px;}
               #fs-frm [type="button"]:focus,
               #fs-frm [type="submit"]:focus,
               #fs-frm [type="reset"]:focus {
-                outline: none;
+                outline: chocolate;
               }
               #fs-frm [type="submit"],
               #fs-frm [type="reset"] {
@@ -383,45 +387,40 @@ img{margin: 5px 5px 5px 5px;}
         
 
         <!-- Features -->
-       
-        <div class="container px-4 py-5" id="featured-3">
-          <h2 class="pb-2 border-bottom">Features that matters</h2>
+        <div class="container px-4 py-5" id="hanging-icons">
+          <h2 class="pb-2 border-bottom">Key Features</h2>
           <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em"><img src="Diary1.svg" width="50px"></img></svg>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
               </div>
-              <h2>Imitate your style</h2>
-              <p>We encourage you to submit some examples of your previous writing to our essay help service. </p>
-              <a href="#" class="icon-link d-inline-flex align-items-center">
-                View more
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-              </a>
+              <div>
+                <h2>Imitate your style</h2>
+                <p>We encourage you to submit some examples of your previous writing to our essay help service.</p>
+              </div>
             </div>
-            <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em"><img src="Diary1.svg" width="50px"></img></svg>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"></use></svg>
               </div>
-              <h2>Complete confidentiality</h2>
-              <p>You can be assured that your personal information will never be shared with anyone when you use our essay service.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center">
-                View more
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-              </a>
+              <div>
+                <h2>Complete confidentiality</h2>
+                <p>You can be assured that your personal information will never be shared with anyone when you use our essay service.</p>
+            
+              </div>
             </div>
-            <div class="feature col">
-              <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-primary bg-gradient text-white fs-2 mb-3">
-                <svg class="bi" width="1em" height="1em"><img src="Diary1.svg" width="50px"></img></svg>
+            <div class="col d-flex align-items-start">
+              <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"></use></svg>
               </div>
-              <h2>24/7 Customer support team</h2>
-              <p>Our professional and friendly customer support team are always around to help you with any questions you may have, just send them a message and they will reply in minutes.</p>
-              <a href="#" class="icon-link d-inline-flex align-items-center">
-                View more
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
-              </a>
+              <div>
+                <h2>24/7 Customer support team</h2>
+                <p>Our professional and friendly customer support team are always around to help you with any questions you may have, just send them a message and they will reply in minutes.</p>
+              </div>
             </div>
           </div>
         </div>
+
 
         <!-- Footer -->
         <div class="container">
